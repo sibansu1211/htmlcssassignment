@@ -2,6 +2,83 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    
+    .logo{
+        display: inline;
+    }
+    .head_er{
+        background-color: rgb(219, 184, 219);
+        height: 92px;
+        padding: 9px 18px;
+        width: calc(100%-36px);
+        border: 1px solid;
+        margin-bottom: 10px;
+    }
+    .nav_link{
+        height: 20px;
+        padding: 10px 0px;
+        width: 100%; 
+        border: 1px solid;
+        margin-bottom: 10px;
+    }
+    .nav_sub_link{
+        width: 23.75%;
+        display: inline-block;
+        text-align:center ;
+        text-decoration: none;
+        line-height: 20px;
+    
+    }
+    .search_bar{
+        position: sticky;
+        margin-top: 30px;
+        margin-left: 0%;
+        float: right;
+    }
+    .app_sub_link:hover{
+        text-decoration: underline;
+    }
+    .main_list{
+        display: inline-block;
+        vertical-align: top;
+        height: 450px;
+    }
+    
+    .main_list_aside{
+        width: 20%;
+        border: 1px solid;
+    
+    }
+    .main_list ul{
+        list-style: none;
+    }
+    #main-content-section{
+        width: 57%;
+        border: 1px solid;
+    }
+    #logo_img{
+        height: 75px;
+        width: 75px;
+        padding-top: 8px;
+    }
+    .post-img:nth-child(3) {
+        margin-right: 10px;
+    }
+    .post-img {
+        height: 210px;
+        width: calc(32.3% - 10px);
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+    #page-footer{
+        border: 1px solid;
+        margin-top: 10px;
+    }
+    li{
+        padding-bottom: 15px;
+    }
+    
+    
